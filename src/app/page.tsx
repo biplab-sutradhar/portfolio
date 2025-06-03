@@ -124,18 +124,20 @@ export default function Home() {
                     {/* Action Buttons */}
                     <div className="mt-8 flex gap-4">
                         <Link
-                            href="/contact"
-                            className="flex justify-center bg-highlight font-bold rounded text-center text-light p-2 mb-5 hover:bg-opacity-90 transition-all"
+                            href="/contacts"
+                            className="flex justify-center bg-highlight font-bold rounded text-center text-light p-2 mb-5 hover:bg-opacity-0 hover:border-highlight border-2 transition-all"
                         >
                             Get in Touch
                         </Link>
 
-                        {/* <button
-                            onClick={handleDownload}
-                            className="border-highlight border-2 p-1 mb-5 rounded text-highlight font-bold hover:bg-highlight hover:text-light text-center transition-all"
+                        <a
+                            href="https://drive.google.com/file/d/1h1J9-7DAuwK61fQwULQ-6JqVyTp0H8z1/view?usp=sharing"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="border-highlight border-2 p-1 mb-5 rounded text-highlight font-bold hover:bg-highlight hover:text-light text-center transition-all flex items-center justify-center"
                         >
-                            Download Resume
-                        </button> */}
+                            Resume
+                        </a>
                     </div>
                 </motion.div>
             </div>
